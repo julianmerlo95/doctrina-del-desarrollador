@@ -1,35 +1,52 @@
 import React, { PureComponent } from 'react';
 import './Navbar.sass'
+import img from '../../../assets/logo.png';
 
 class Navbar extends PureComponent {
 
     render() {
         return (
             <nav class="navbar-container navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div>
+                    <img className="navbar-container-img" src={img} />
+                </div>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="navbar-container-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="navbar-container-item nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="navbar-container-item nav-link" href="#">Pricing</a>
+                            <a class="navbar-container-item nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="navbar-container-item nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown link
+                                Temas
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="navbar-container-sections dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <div>
+                                    <h5 class="dropdown-item" href="#">BUENAS PRACTICAS</h5>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                                <div>
+                                    <h5 class="dropdown-item" href="#">PATRONES DE DISEÑO</h5>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                                <div>
+                                    <h5 class="dropdown-item" href="#">REFACTORIZACION</h5>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                                <div>
+                                    <h5 class="dropdown-item" href="#">TESTING</h5>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
                             </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-container-item nav-link" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-container-item nav-link" href="#">Contacto</a>
                         </li>
                     </ul>
                 </div>

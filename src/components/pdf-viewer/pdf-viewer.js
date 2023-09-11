@@ -18,12 +18,13 @@ export default function PdfViewer(props) {
                 document: props.document,
                 baseUrl: `${window.location.protocol}//${window.location.host}/${process.env.PUBLIC_URL}`,
             });
-            console.log(instance);
+
         })();
+
         return () => PSPDFKit && PSPDFKit.unload(container);
     }, []);
 
     return (
-        <div ref={containerRef} style={{ width: '80%', height: '100vh', margin: '0 auto' }} />
+        <div ref={containerRef} style={{ width: '57%', height: '100vh', margin: '0 auto', padding: '2%' }} />
     );
 }

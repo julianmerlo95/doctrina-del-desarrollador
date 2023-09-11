@@ -15,7 +15,7 @@ class Footer extends PureComponent {
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
                 <div class="card-footer text-muted">
-                    Dojo
+                    Doctrina del desarrollador
                 </div>
             </div>
         )

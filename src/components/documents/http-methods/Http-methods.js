@@ -1,6 +1,6 @@
 import React from 'react';
 import PdfViewer from '../../pdf-viewer/pdf-viewer';
-import pdfFile from './http-methods.pdf';
+import pdfFile from './los-6-http-metodos-mas-usados.pdf';
 
 export default function HttpMethods() {
     return (
