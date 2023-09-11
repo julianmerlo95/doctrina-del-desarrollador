@@ -21,9 +21,9 @@ class Navbar extends PureComponent {
                             </a>
                             <div class="navbar-container-sections dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <div>
-                                    <h5 class="dropdown-item" href="#">BUENAS PRACTICAS</h5>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <h5 class="dropdown-item" href="/reports/sales">BUENAS PRACTICAS</h5>
+                                    <a class="dropdown-item" href="/reports/sales">Another action</a>
+                                    <a class="dropdown-item" href="/reports/sales">Something else here</a>
                                 </div>
                                 <div>
                                     <h5 class="dropdown-item" href="#">PATRONES DE DISEÑO</h5>
@@ -50,9 +50,10 @@ class Navbar extends PureComponent {
                         </li>
                     </ul>
                 </div>
-            </nav>
+            </nav >
         )
     }
 }
 
 export default Navbar;
+
