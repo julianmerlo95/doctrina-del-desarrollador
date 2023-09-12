@@ -1,5 +1,5 @@
 import React from 'react';
-import './Categories.sass';
+import './categories.sass';
 
 const Categories = () => {
     return (
@@ -8,41 +8,40 @@ const Categories = () => {
                 <div class="categories-container-list-section">
                     <u><h4>Buenas practicas</h4></u>
                     <div class="categories-container-list-section-content">
-                        <h5 href="url">Principios <span className="highlight-word">Yagni</span>, <span className="highlight-word">Tell don't ask</span> y <span className="highlight-word">KYSS</span></h5>
-                        <h5 href="url">Principios <span className="highlight-word">Solid</span></h5>
+                        <li><a href="ruta.com">Principios Yagni, Tell don't ask y KYSS</a></li>
+                        <li><a href="ruta.com">Principios Solid</a></li>
                     </div>
                 </div>
                 <div class="categories-container-list-section">
                     <u><h4>Patrones de diseño</h4></u>
-                    <div class="categories-container-list-section-content">
-                        <h5 href="url">Factory</h5>
-                        <h5 href="url">Strategy</h5>
-                        <h5 href="url">Facada</h5>
-                    </div>
+                    <ul class="categories-container-list-section-content">
+                        <li><a href="ruta.com">Decorator</a></li>
+                        <li><a href="ruta.com">Strategy</a></li>
+                        <li><a href="ruta.com">Factory</a></li>
+                        <li><a href="ruta.com">Facada</a></li>
+                    </ul>
                 </div>
                 <div class="categories-container-list-section">
                     <u><h4>Refactorizacion</h4></u>
                     <div class="categories-container-list-section-content">
-                        <h5 href="url">link text</h5>
-                        <h5 href="url">link text</h5>
-                        <h5 href="url">link text</h5>
+                        <li><a href="/refactoring/legacy-code">Codigo legacy</a></li>
                     </div>
                 </div>
                 <div class="categories-container-list-section">
                     <u><h4>Testing</h4></u>
-                    <div class="categories-container-list-section-content">
-                        <h5 href="url">Integracion</h5>
-                        <h5 href="url">Coverage</h5>
-                        <h5 href="url">Unitarios</h5>
-                        <h5 href="url">BDD</h5>
-                        <h5 href="url">TDD</h5>
-                    </div>
+                    <ul class="categories-container-list-section-content">
+                        <li><a href="ruta.com">Integracion</a></li>
+                        <li><a href="ruta.com">Coverage</a></li>
+                        <li><a href="ruta.com">Unitarios</a></li>
+                        <li><a href="ruta.com">BDD</a></li>
+                        <li><a href="ruta.com">TDD</a></li>
+                    </ul>
                 </div>
                 <div class="categories-container-list-section">
                     <u><h4>Documentacion</h4></u>
                     <div class="categories-container-list-section-content">
-                        <h5 href="url">Integracion</h5>
-                        <h5 href="url">Unitarios</h5>
+                        <li><a href="ruta.com">BDD</a></li>
+                        <li><a href="ruta.com">TDD</a></li>
                     </div>
                 </div>
             </div>
@@ -51,45 +50,45 @@ const Categories = () => {
                 <div class="categories-container-list-section">
                     <u><h4>Tecnicas</h4></u>
                     <div class="categories-container-list-section-content">
-                        <h5 href="url">6 http metodos en REST</h5>
-                        <h5 href="url">Continuous Deployment</h5>
-                        <h5 href="url">Continuous Integration</h5>
-                        <h5 href="url"><span className="highlight-word">D</span>omain <span className="highlight-word">D</span>riven <span className="highlight-word">D</span>esign</h5>
-                        <h5 href="url">Continuous Delivery</h5>
-                        <h5 href="url">Microservicios</h5>
-                        <h5 href="url">Scrum</h5>
-                        <h5 href="url">BFF</h5>
+                        <li><a href="ruta.com">6 http metodos en REST</a></li>
+                        <li><a href="ruta.com">Continuous Deployment</a></li>
+                        <li><a href="ruta.com">Continuous Integration</a></li>
+                        <li><a href="ruta.com">Domain Driven Design</a></li>
+                        <li><a href="ruta.com">Continuous Delivery</a></li>
+                        <li><a href="ruta.com">Microservicios</a></li>
+                        <li><a href="ruta.com">Scrum</a></li>
+                        <li><a href="ruta.com">BFF</a></li>
                     </div>
                 </div>
                 <div class="categories-container-list-section">
                     <u><h4>Herramientas</h4></u>
                     <div class="categories-container-list-section-content">
-                        <h5 href="url">Principios <span className="highlight-word">Yagni</span></h5>
-                        <h5 href="url"><span className="highlight-word">D</span>omain <span className="highlight-word">D</span>riven <span className="highlight-word">D</span>esign</h5>
-                        <h5 href="url">Principios <span className="highlight-word">Solid</span></h5>
+                        <li><a href="ruta.com">Principios Yagni</a></li>
+                        <li><a href="ruta.com">Domain Driven Design</a></li>
+                        <li><a href="ruta.com">Principios Solid</a></li>
                     </div>
                 </div>
                 <div class="categories-container-list-section">
                     <u><h4>Monitoreo</h4></u>
                     <div class="categories-container-list-section-content">
-                        <h5 href="url">Factory</h5>
-                        <h5 href="url">Strategy</h5>
-                        <h5 href="url">Facada</h5>
+                        <li><a href="ruta.com">Factory</a></li>
+                        <li><a href="ruta.com">Strategy</a></li>
+                        <li><a href="ruta.com">Facada</a></li>
                     </div>
                 </div>
                 <div class="categories-container-list-section">
                     <u><h4>Testing</h4></u>
                     <div class="categories-container-list-section-content">
-                        <h5 href="url">Integracion</h5>
-                        <h5 href="url">Unitarios</h5>
-                        <h5 href="url">TDD</h5>
+                        <li><a href="ruta.com">Integracion</a></li>
+                        <li><a href="ruta.com">Unitarios</a></li>
+                        <li><a href="ruta.com">TDD</a></li>
                     </div>
                 </div>
                 <div class="categories-container-list-section">
                     <u><h4>Documentacion</h4></u>
                     <div class="categories-container-list-section-content">
-                        <h5 href="url">Integracion</h5>
-                        <h5 href="url">Unitarios</h5>
+                        <li><a href="ruta.com">Integracion</a></li>
+                        <li><a href="ruta.com">Unitarios</a></li>
                     </div>
                 </div>
             </div>

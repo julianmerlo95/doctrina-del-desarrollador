@@ -4,6 +4,7 @@ import './home.sass';
 import img from '../../assets/test.png';
 
 import WelcomeDD from '../documents/welcome-dd/Welcome-dd';
+import Information from '../information/Information';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             </div>
             <Categories />
             <WelcomeDD />
+            <Information />
         </div >
     )
 }

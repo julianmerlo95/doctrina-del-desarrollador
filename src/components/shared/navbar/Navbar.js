@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import './Navbar.sass'
+import './navbar.sass'
 import img from '../../../assets/logo.png';
 
 class Navbar extends PureComponent {
@@ -13,7 +13,7 @@ class Navbar extends PureComponent {
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="navbar-container-item nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                            <a class="navbar-container-item nav-link" href="/home">Inicio <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="navbar-container-item nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

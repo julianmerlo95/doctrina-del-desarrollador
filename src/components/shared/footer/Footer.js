@@ -1,21 +1,19 @@
 import React, { PureComponent } from 'react';
-import './Footer.sass'
+import './footer.sass'
 
 class Footer extends PureComponent {
 
     render() {
         return (
-            <div class="card text-center">
-                <div class="card-header">
-                    Featured
-                </div>
+            <div class="footer-container card text-center">
+                <div class="card-header"></div>
                 <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">¿Te gustaria aportar al proyecto?</h5>
+                    <p class="card-text">Unite a nosotros a travez del siguiente correo: doctrina-del-desarrollador@gmail.com</p>
+                    <a href="/home" class="btn btn-primary">Volver al Inicio</a>
                 </div>
                 <div class="card-footer text-muted">
-                    Doctrina del desarrollador
+                    Doctrina del desarrollador. Todos los derechos reservados
                 </div>
             </div>
         )
