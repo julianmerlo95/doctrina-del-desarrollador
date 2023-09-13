@@ -17,7 +17,16 @@ export default function PdfViewer(props) {
                 container,
                 document: props.document,
                 baseUrl: `${window.location.protocol}//${window.location.host}/${process.env.PUBLIC_URL}`,
-            });
+                styleSheets: [
+                    "./my-pspdfkit.css" // or local CSS file
+                ],
+            })
+                .then((instance) => {
+                    console.info("PSPDFKit loaded", instance);
+                })
+                .catch((error) => {
+                    console.error(error.message);
+                });
 
         })();
 

@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #100423ff;
+  background: black;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 code {

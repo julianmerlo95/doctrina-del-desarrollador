@@ -21,8 +21,8 @@ const Home = () => {
                 </div>
             </div>
             <Categories />
-            <WelcomeDD />
             <Information />
+            <WelcomeDD />
         </div >
     )
 }
