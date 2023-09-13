@@ -6,7 +6,7 @@ class Information extends PureComponent {
     render() {
         return (
             <div class="information-container card text-center">
-                <h2>¡Todos nuestros documentos están disponibles en formato PDF y son de libre descarga y uso!</h2>
+                <h3 className="information-container-title">¡Todos nuestros documentos están disponibles en formato PDF y son de libre descarga y uso!</h3>
 
                 <div class="information-container">
                     <div class="information-container-card card" style={{ width: '18rem;' }}>

@@ -15,9 +15,38 @@
         color: white
         padding: 3%
 
+        &-h1
+            font-weight: 700
+
     &-right
         width: 44%
 
         &-img
             max-width: 100%
             height: auto
+
+// work-with-us 
+.home-container-work-with-us-container
+    margin-top: 2%
+    margin-bottom: 2%
+    color: white
+    border-top-left-radius: 100px
+    border-top-right-radius: 100px
+
+    &-title
+        font-weight: 700
+
+    &-button
+        background: $background-third-color!important
+        color: white
+
+    &-button:hover
+        background: $background-third-color!important
+        color: black
+
+@media (max-width: 768px)
+    .home-container-title-right-img
+        display: none
+
+    .home-container-work-with-us-container
+        margin-top: 5%

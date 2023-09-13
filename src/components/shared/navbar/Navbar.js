@@ -7,10 +7,10 @@ class Navbar extends PureComponent {
     render() {
         return (
             <nav class="navbar-container navbar navbar-expand-lg navbar-light bg-light">
-                <div>
-                    <img className="navbar-container-img" src={img} />
+                <div class="navbar-container-left-section">
+                    <img className="navbar-container-left-section-img" src={img} />
                 </div>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="navbar-container-righ-section collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
                             <a class="navbar-container-item nav-link" href="/home">Inicio <span class="sr-only">(current)</span></a>
@@ -44,6 +44,9 @@ class Navbar extends PureComponent {
                         </li>
                         <li class="nav-item">
                             <a class="navbar-container-item nav-link" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-container-item nav-link" href="#">Participa del proyecto</a>
                         </li>
                         <li class="nav-item">
                             <a class="navbar-container-item nav-link" href="#">Contacto</a>

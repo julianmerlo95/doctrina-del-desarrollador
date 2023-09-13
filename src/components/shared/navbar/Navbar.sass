@@ -2,12 +2,28 @@
 
 .navbar-container
     display: flex
-    width: 100%
+    width: 80%
     margin: 0 auto
     background: $background-primary-color!important
 
-    &-img
-        width: 25%
+    &-left-section
+        width: 50%
+
+        &-img
+            width: 38%
+
+    &-right-section
+        width: 100%
 
     &-item
         color: white!important
+
+@media screen and (max-width: $medium-display)
+    .navbar-container
+        display: block
+
+        &-righ-section
+            display: block
+
+        &-left-section-img
+            display: none

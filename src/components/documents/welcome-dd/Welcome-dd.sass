@@ -1,3 +1,26 @@
+@import '../../../globalStyle'
+
 .welcome-dd-container
     margin-top: 2%
+    margin: 0 auto
     color: white!important
+    background: white
+    border-top-left-radius: 70px
+    border-top-right-radius: 70px
+    border-bottom-left-radius: 70px
+    border-bottom-right-radius: 70px
+    padding: 2%
+
+    &-title
+        color: $background-third-color
+        font-weight: 700
+
+        &-secondary
+            color: gray
+
+@media screen and (max-width: $medium-display)
+    .welcome-dd-container
+        border-top-left-radius: 20px
+        border-top-right-radius: 20px
+        border-bottom-left-radius: 20px
+        border-bottom-right-radius: 20px

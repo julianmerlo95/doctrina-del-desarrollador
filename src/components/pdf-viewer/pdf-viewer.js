@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from 'react';
 export default function PdfViewer(props) {
 
     const containerRef = useRef(null);
+    const width = props.width;
 
     useEffect(() => {
         const container = containerRef.current;
@@ -34,6 +35,6 @@ export default function PdfViewer(props) {
     }, []);
 
     return (
-        <div ref={containerRef} style={{ width: '57%', height: '100vh', margin: '0 auto', padding: '2%' }} />
+        <div ref={containerRef} style={{ width: width, height: '100vh', margin: '0 auto', padding: '2%' }} />
     );
 }

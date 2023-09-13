@@ -1,24 +1,43 @@
 @import '../../globalStyle'
 
 .information-container
-    display: flex!important
+    display: flex
     width: 80%
     margin: 0 auto
     margin-bottom: 2%
     padding: 0.5%
     text-align: left
-    background: $background-primary-color
+    background: $background-secondary-color
     margin-top: 2%
     color: white!important
+    border-bottom-left-radius: 100px
+    border-bottom-right-radius: 100px
+    padding: 2%
+
+    &-title
+        font-weight: 700
 
     &-card
         width: 25%
         margin: 0 auto
         color: white
         background: $background-primary-color
-        border: 1px solid white
+        border: 1px solid $background-third-color
         transition: 1s
-        box-shadow: 1px 1px 1px 1px white
+        box-shadow: 1px 1px 1px 1px $background-third-color
 
         &-title
-            color: #9d3297
+            color: $background-third-color
+            font-weight: 700
+
+@media screen and (max-width: $medium-display)
+    .information-container
+        width: 100%
+        display: block
+        border-bottom-left-radius: 0px
+        border-bottom-right-radius: 0px
+        margin-bottom: 5%
+
+        &-card
+            width: 100%
+            margin-top: 5%

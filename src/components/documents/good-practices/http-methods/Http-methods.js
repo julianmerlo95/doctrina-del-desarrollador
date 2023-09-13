@@ -9,11 +9,12 @@ export default function HttpMethods() {
     const author = "Julian Merlo";
     const documentDate = "10/09/23";
     const linkedin = "https://www.linkedin.com/in/julianmerlo/";
+    const width = "60%";
 
     return (
         <div className="http-method-container">
             <Author author={author} documentDate={documentDate} linkedin={linkedin} />
-            <PdfViewer document={pdfFile} />
+            <PdfViewer document={pdfFile} width={width} />
         </div>
     );
 }

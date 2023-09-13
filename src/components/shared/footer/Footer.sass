@@ -3,4 +3,34 @@
 .footer-container
     width: 80%
     margin: 0 auto
-    background: white!important
+    background: $background-secondary-color!important
+    color: white
+
+    &-body
+        width: 80%
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+        &-left
+            width: 40%
+
+            &-img
+                width: 80%
+
+        &-body-right
+            width: 60%
+
+a, li
+    list-style: none
+
+@media screen and (max-width: $medium-display)
+    .footer-container
+        margin-top: 5%
+
+        &-body-left
+            width: 100%
+
+        &-body-right
+            display: none
