@@ -6,7 +6,8 @@ import Footer from '../components/shared/footer/Footer';
 import HttpMethods from '../components/documents/good-practices/http-methods/Http-methods';
 import LegacyCode from '../components/documents/refactoring/legacy-code/Legacy-code';
 
-class Dojo extends PureComponent {
+class DoctrinaDelDesarrollador extends PureComponent {
+
     render() {
         return (
             <div>
@@ -30,4 +31,4 @@ class Dojo extends PureComponent {
     }
 }
 
-export default Dojo;
+export default DoctrinaDelDesarrollador;

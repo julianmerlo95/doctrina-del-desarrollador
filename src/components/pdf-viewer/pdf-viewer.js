@@ -13,7 +13,7 @@ export default function PdfViewer(props) {
             PSPDFKit = await import('pspdfkit');
 
             PSPDFKit.unload(container); // Ensure that there's only one PSPDFKit instance.
-
+            PSPDFKit.Annotation = false
             instance = await PSPDFKit.load({
                 container,
                 document: props.document,
@@ -21,6 +21,7 @@ export default function PdfViewer(props) {
                 styleSheets: [
                     "./my-pspdfkit.css" // or local CSS file
                 ],
+                disableAnnotationList: true
             })
                 .then((instance) => {
                     console.info("PSPDFKit loaded", instance);
@@ -35,6 +36,6 @@ export default function PdfViewer(props) {
     }, []);
 
     return (
-        <div ref={containerRef} style={{ width: width, height: '100vh', margin: '0 auto', padding: '2%' }} />
+        <div ref={containerRef} style={{ width: props.width, height: '100vh', margin: '0 auto', padding: '2%' }} />
     );
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Dojo from './container/Dojo';
+import DoctrinaDelDesarrollador from './container/doctrina-del-desarrollador';
 
 function App() {
   return (
     <div className="App">
       <main >
-        <Dojo />
+        <DoctrinaDelDesarrollador />
       </main>
     </div>
   );
