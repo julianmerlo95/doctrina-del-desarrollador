@@ -1,6 +1,6 @@
 import React from 'react';
 import Author from '../../../author/Author';
-import PdfViewer from '../../../pdf-viewer/Pdf-viewer';
+import PdfViewer from '../../../pdf-viewer/pdf-viewer';
 import pdfFile from './codigo-legacy.pdf';
 import './legacy-code.sass';
 

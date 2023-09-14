@@ -24,8 +24,8 @@ const Categories = () => {
                 <div class="categories-container-list-section">
                     <h4 class="categories-container-list-section-title">REFACTORIZACION</h4>
                     <div class="categories-container-list-section-content">
+                        <li><a href="/refactoring/code-smell-and-techniques">Codigo smell y tecnicas</a></li>
                         <li><a href="/refactoring/legacy-code">Codigo legacy</a></li>
-                        <li><a href="/refactoring/legacy-code">Codigo smell y tecnicas</a></li>
                     </div>
                 </div>
                 <div class="categories-container-list-section">

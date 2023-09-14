@@ -1,5 +1,5 @@
 import React from 'react';
-import PdfViewer from '../../pdf-viewer/Pdf-viewer';
+import PdfViewer from '../../pdf-viewer/pdf-viewer';
 import pdfFile from './welcome-dd.pdf';
 import './welcome-dd.sass';
 

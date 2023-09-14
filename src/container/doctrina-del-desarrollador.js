@@ -5,6 +5,7 @@ import Navbar from '../components/shared/navbar/Navbar';
 import Footer from '../components/shared/footer/Footer';
 import HttpMethods from '../components/documents/good-practices/http-methods/Http-methods';
 import LegacyCode from '../components/documents/refactoring/legacy-code/Legacy-code';
+import CodeSmellAndTechniques from '../components/documents/refactoring/code-smell-and-techniques/Code-smell-and-techniques';
 
 class DoctrinaDelDesarrollador extends PureComponent {
 
@@ -18,6 +19,7 @@ class DoctrinaDelDesarrollador extends PureComponent {
                             <Route path="/" element={<Home />} />
                             <Route path="/home" element={<Home />} />
 
+                            <Route path="/refactoring/code-smell-and-techniques" element={<CodeSmellAndTechniques />} />
                             <Route path="/refactoring/legacy-code" element={<LegacyCode />} />
 
                             <Route path="/good-practices/http-methods" element={<HttpMethods />} />
