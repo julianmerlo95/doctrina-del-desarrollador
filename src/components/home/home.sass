@@ -18,6 +18,10 @@
         &-h1
             font-weight: 700
 
+            &-span
+                color: $background-third-color
+                font-weight: 700
+
     &-right
         width: 44%
 
@@ -45,8 +49,16 @@
         color: black
 
 @media (max-width: 768px)
-    .home-container-title-right-img
-        display: none
+    .home-container-title
+        width: 100%
+        display: flex
+        justify-content: center
 
-    .home-container-work-with-us-container
-        margin-top: 5%
+        &-left
+            width: 80%!important
+
+        &-right
+            display: none
+
+        &-work-with-us-container
+            margin-top: 5%

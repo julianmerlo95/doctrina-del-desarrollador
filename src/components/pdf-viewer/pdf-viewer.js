@@ -7,6 +7,7 @@ export default function PdfViewer(props) {
 
     useEffect(() => {
         const container = containerRef.current;
+        const document = props.document;
         let instance, PSPDFKit;
 
         (async function () {
@@ -16,7 +17,7 @@ export default function PdfViewer(props) {
             PSPDFKit.Annotation = false
             instance = await PSPDFKit.load({
                 container,
-                document: props.document,
+                document: document,
                 baseUrl: `${window.location.protocol}//${window.location.host}/${process.env.PUBLIC_URL}`,
                 styleSheets: [
                     "./my-pspdfkit.css" // or local CSS file
@@ -36,6 +37,6 @@ export default function PdfViewer(props) {
     }, []);
 
     return (
-        <div ref={containerRef} style={{ width: props.width, height: '100vh', margin: '0 auto', padding: '2%' }} />
+        <div ref={containerRef} style={{ width: width, height: '100vh', margin: '0 auto', padding: '2%' }} />
     );
 }

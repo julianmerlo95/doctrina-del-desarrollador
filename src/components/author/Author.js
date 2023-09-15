@@ -9,9 +9,9 @@ export default function Author(props) {
 
     return (
         <div className="author-container">
-            <h4><u>Autor:</u> {author}</h4>
-            <h4><u>Linkedin:</u> <a href={linkedin}>{linkedin}</a></h4>
-            <h4><u>Fecha de publicacion:</u> {documentDate}</h4>
+            <h4><span className="author-container-span">Autor:</span> {author}</h4>
+            <h4><span className="author-container-span">Linkedin:</span> <a href={linkedin}>{linkedin}</a></h4>
+            <h4><span className="author-container-span">Fecha de publicacion:</span> {documentDate}</h4>
         </div >
     );
 }

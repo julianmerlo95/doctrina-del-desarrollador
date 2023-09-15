@@ -1,7 +1,7 @@
 import React from 'react';
 import Categories from '../categories/Categories';
 import './home.sass';
-import img from '../../assets/test2.png';
+import img from '../../assets/home.png';
 import WelcomeDD from '../documents/welcome-dd/Welcome-dd';
 import Information from '../information/Information';
 
@@ -12,7 +12,11 @@ const Home = () => {
                 <div className="home-container-title-left">
                     <div>
                         <h1 className="home-container-title-left-h1">Doctrina del desarrollador</h1>
-                        <h4>Una plataforma dedicada a compartir conocimiento, buenas prácticas y experiencias en el ámbito del desarrollo de software</h4>
+                        <h4>Una plataforma dedicada a compartir
+                            <span className="home-container-title-left-h1-span"> conocimiento</span>,
+                            <span className="home-container-title-left-h1-span"> buenas prácticas</span> y
+                            <span className="home-container-title-left-h1-span"> experiencias </span>
+                            en el ámbito del desarrollo de software</h4>
                     </div>
                 </div>
                 <div className="home-container-title-right">

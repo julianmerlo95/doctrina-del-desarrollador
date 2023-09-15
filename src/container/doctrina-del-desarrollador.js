@@ -6,6 +6,9 @@ import Footer from '../components/shared/footer/Footer';
 import HttpMethods from '../components/documents/good-practices/http-methods/Http-methods';
 import LegacyCode from '../components/documents/refactoring/legacy-code/Legacy-code';
 import CodeSmellAndTechniques from '../components/documents/refactoring/code-smell-and-techniques/Code-smell-and-techniques';
+import WorkWithUs from '../components/work-with-us/Work-with-us';
+import AboutUs from '../components/about-us/About-us';
+import Contact from '../components/contact/Contact';
 
 class DoctrinaDelDesarrollador extends PureComponent {
 
@@ -18,6 +21,9 @@ class DoctrinaDelDesarrollador extends PureComponent {
                         <Routes>
                             <Route path="/" element={<Home />} />
                             <Route path="/home" element={<Home />} />
+                            <Route path="/work-with-us" element={<WorkWithUs />} />
+                            <Route path="/about-us" element={<AboutUs />} />
+                            <Route path="/contact" element={<Contact />} />
 
                             <Route path="/refactoring/code-smell-and-techniques" element={<CodeSmellAndTechniques />} />
                             <Route path="/refactoring/legacy-code" element={<LegacyCode />} />

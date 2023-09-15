@@ -1,5 +1,25 @@
+@import '../../globalStyle'
+
 .author-container
     width: 80%
     margin: 0 auto
     text-align: left
+    padding: 2%
+    border-radius: 20px
+    background: $background-secondary-color
     color: white
+
+    &-span
+        color: $background-third-color
+        font-weight: 700
+
+@media screen and (max-width: $medium-display)
+
+    .author-container
+        width: 95%
+        white-space: nowrap
+        text-overflow: ellipsis
+        overflow: hidden
+
+    h4
+        font-size: 15px
