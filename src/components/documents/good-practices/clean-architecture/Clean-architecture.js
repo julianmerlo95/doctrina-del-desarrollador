@@ -7,7 +7,7 @@ import PdfViewer from '../../../pdf-viewer/pdf-viewer';
 export default function CleanArchitecture() {
 
     const author = "Julian Merlo";
-    const documentDate = "10/09/23";
+    const documentDate = "16/09/23";
     const linkedin = "https://www.linkedin.com/in/julianmerlo/";
     const width = "60%";
 
