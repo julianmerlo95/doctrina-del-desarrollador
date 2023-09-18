@@ -10,6 +10,7 @@ import WorkWithUs from '../components/work-with-us/Work-with-us';
 import AboutUs from '../components/about-us/About-us';
 import Contact from '../components/contact/Contact';
 import CleanArchitecture from '../components/documents/good-practices/clean-architecture/Clean-architecture';
+import Tdd from '../components/documents/good-practices/tdd/Tdd';
 
 class DoctrinaDelDesarrollador extends PureComponent {
 
@@ -31,6 +32,7 @@ class DoctrinaDelDesarrollador extends PureComponent {
 
                             <Route path="/good-practices/http-methods" element={<HttpMethods />} />
                             <Route path="/good-practices/clean-architecture" element={<CleanArchitecture />} />
+                            <Route path="/good-practices/tdd" element={<Tdd />} />
 
                         </Routes>
                     </BrowserRouter>

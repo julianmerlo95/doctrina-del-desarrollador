@@ -12,6 +12,7 @@ const Categories = () => {
                         <li><a href="/good-practices/http-methods">6 http metodos en REST</a></li>
                         <li><a href="/good-practices/clean-architecture">Clean Architecture</a></li>
                         <li><a href="ruta.com">Principios Solid</a></li>
+                        <li><a href="/good-practices/tdd">TDD</a></li>
                     </div>
 
                 </div>
@@ -38,7 +39,6 @@ const Categories = () => {
                         <li><a href="ruta.com">Coverage</a></li>
                         <li><a href="ruta.com">Unitarios</a></li>
                         <li><a href="ruta.com">BDD</a></li>
-                        <li><a href="ruta.com">TDD</a></li>
                     </div>
                 </div>
                 <div class="categories-container-list-section">
