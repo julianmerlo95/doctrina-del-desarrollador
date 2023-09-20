@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import './navbar.sass'
+import './Navbar.sass'
 import img from '../../../assets/logo.png';
 
 class Navbar extends PureComponent {
