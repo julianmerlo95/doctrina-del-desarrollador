@@ -1,5 +1,5 @@
 import React from 'react';
-import './categories.sass';
+import './Categories.sass';
 
 const Categories = () => {
     return (
