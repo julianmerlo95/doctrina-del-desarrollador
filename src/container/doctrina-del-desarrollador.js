@@ -31,10 +31,10 @@ class DoctrinaDelDesarrollador extends PureComponent {
                             <Route path="/refactoring/code-smell-and-techniques" element={<CodeSmellAndTechniques />} />
                             <Route path="/refactoring/legacy-code" element={<LegacyCode />} />
 
-                            <Route path="/good-practices/http-methods" element={<HttpMethods />} />
-                            <Route path="/good-practices/clean-architecture" element={<CleanArchitecture />} />
-                            <Route path="/good-practices/tdd" element={<Tdd />} />
                             <Route path="/good-practices/principles-Yagni-Tell-dont-ask-DRY-and-KYSS" element={<PrinciplesYagniTelldontaskDRYAndKYSS />} />
+                            <Route path="/good-practices/clean-architecture" element={<CleanArchitecture />} />
+                            <Route path="/good-practices/http-methods" element={<HttpMethods />} />
+                            <Route path="/good-practices/tdd" element={<Tdd />} />
 
                         </Routes>
                     </BrowserRouter>
