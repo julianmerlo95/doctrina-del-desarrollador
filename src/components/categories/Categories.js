@@ -8,9 +8,13 @@ const Categories = () => {
                 <div class="categories-container-list-section">
                     <h4 class="categories-container-list-section-title">BUENAS PRACTICAS</h4>
                     <div class="categories-container-list-section-content">
-                        <li><a href="ruta.com">Principios Yagni, Tell don't ask y KYSS</a></li>
+                        <li><a href="/good-practices/principles-Yagni-Tell-dont-ask-DRY-and-KYSS">Principios Yagni, Tell don't ask, DRY y KYSS</a></li>
+                        <li><a href="/good-practices/http-methods">6 http metodos en REST</a></li>
+                        <li><a href="/good-practices/clean-architecture">Clean Architecture</a></li>
                         <li><a href="ruta.com">Principios Solid</a></li>
+                        <li><a href="/good-practices/tdd">TDD</a></li>
                     </div>
+
                 </div>
                 <div class="categories-container-list-section">
                     <h4 class="categories-container-list-section-title">PATRONES DE DISEÑO</h4>
@@ -35,7 +39,6 @@ const Categories = () => {
                         <li><a href="ruta.com">Coverage</a></li>
                         <li><a href="ruta.com">Unitarios</a></li>
                         <li><a href="ruta.com">BDD</a></li>
-                        <li><a href="ruta.com">TDD</a></li>
                     </div>
                 </div>
                 <div class="categories-container-list-section">
@@ -50,7 +53,6 @@ const Categories = () => {
                 <div class="categories-container-list-section">
                     <h4 class="categories-container-list-section-title">TECNICAS</h4>
                     <div class="categories-container-list-section-content">
-                        <li><a href="/good-practices/http-methods">6 http metodos en REST</a></li>
                         <li><a href="ruta.com">Continuous Deployment</a></li>
                         <li><a href="ruta.com">Continuous Integration</a></li>
                         <li><a href="ruta.com">Domain Driven Design</a></li>

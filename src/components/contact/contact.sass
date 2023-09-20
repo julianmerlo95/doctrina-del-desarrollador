@@ -1,0 +1,40 @@
+@import '../../globalStyle'
+
+.contact-container
+    width: 80%
+    margin: 0 auto
+    display: flex
+    margin-bottom: 2%
+
+    &-left
+        width: 50%
+
+        &-img
+            width: 70%
+            border-radius: 20px
+            border: 2px solid $background-third-color
+
+    &-right
+        width: 50%
+        padding: 2%
+        background: white
+        border-radius: 20px
+
+    &-button
+        transition: 0.5s
+        background: $background-third-color!important
+
+    &-button:hover
+        transition: 0.5s
+        background: $background-third-color-hover!important
+
+@media screen and (max-width: $medium-display)
+    .contact-container-left
+        display: none
+
+    .contact-container-right
+        width: 100%
+
+    .contact-container-form
+        width: 85%
+        margin: 0 auto
