@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import img from '../../../assets/logo2.png';
-import './footer.sass'
+import './footer.sass';
 
 class Footer extends PureComponent {
 
