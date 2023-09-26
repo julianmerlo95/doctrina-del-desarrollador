@@ -13,6 +13,7 @@ import CleanArchitecture from '../components/documents/good-practices/clean-arch
 import Tdd from '../components/documents/good-practices/tdd/Tdd';
 import PrinciplesYagniTelldontAskDRYAndKYSS from '../components/documents/good-practices/principles-Yagni-Tell-dont-ask-DRY-and-KYSS/Principles-Yagni-Tell-dont-ask-DRY-and-KYSS';
 import ContinuousDeployment from '../components/documents/techniques/continuous-deployment/Continuous-deployment';
+import ContinuousDelivery from '../components/documents/techniques/continuous-delivery/Continuous-delivery';
 
 class DoctrinaDelDesarrollador extends PureComponent {
 
@@ -38,6 +39,7 @@ class DoctrinaDelDesarrollador extends PureComponent {
                             <Route path="/good-practices/tdd" element={<Tdd />} />
 
                             <Route path="/techniques/continuous-deployment" element={<ContinuousDeployment />} />
+                            <Route path="/techniques/continuous-delivery" element={<ContinuousDelivery />} />
 
                         </Routes>
                     </BrowserRouter>
