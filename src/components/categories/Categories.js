@@ -55,7 +55,7 @@ const Categories = () => {
                     <div class="categories-container-list-section-content">
                         <li><a href="/techniques/continuous-deployment">Continuous Deployment</a></li>
                         <li><a href="ruta.com">Continuous Integration</a></li>
-                        <li><a href="ruta.com">Domain Driven Design</a></li>
+                        <li><a href="/techniques/domain-driven-design">Domain Driven Design</a></li>
                         <li><a href="/techniques/continuous-delivery">Continuous Delivery</a></li>
                         <li><a href="ruta.com">Microservicios</a></li>
                         <li><a href="ruta.com">Scrum</a></li>

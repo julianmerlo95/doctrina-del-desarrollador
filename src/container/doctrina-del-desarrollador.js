@@ -14,6 +14,7 @@ import Tdd from '../components/documents/good-practices/tdd/Tdd';
 import PrinciplesYagniTelldontAskDRYAndKYSS from '../components/documents/good-practices/principles-Yagni-Tell-dont-ask-DRY-and-KYSS/Principles-Yagni-Tell-dont-ask-DRY-and-KYSS';
 import ContinuousDeployment from '../components/documents/techniques/continuous-deployment/Continuous-deployment';
 import ContinuousDelivery from '../components/documents/techniques/continuous-delivery/Continuous-delivery';
+import DomainDrivenDesign from '../components/documents/techniques/domain-driven-design/Domain-driven-design';
 
 class DoctrinaDelDesarrollador extends PureComponent {
 
@@ -40,6 +41,7 @@ class DoctrinaDelDesarrollador extends PureComponent {
 
                             <Route path="/techniques/continuous-deployment" element={<ContinuousDeployment />} />
                             <Route path="/techniques/continuous-delivery" element={<ContinuousDelivery />} />
+                            <Route path="/techniques/domain-driven-design" element={<DomainDrivenDesign />} />
 
                         </Routes>
                     </BrowserRouter>
