@@ -26,10 +26,10 @@ const Home = () => {
             <Categories />
             <Information />
             <WelcomeDD />
-            <div className="home-container-work-with-us-container">
-                <h2 className="home-container-work-with-us-container-title">¿Te gustaria participar de este proyecto?</h2>
-                <p> ¡En la siguiente seccion te comentamos como hacerlo!</p>
-                <button type="button" class="home-container-work-with-us-container-button btn">Mas detalles</button>
+            <div className="home-container-other-authors-container">
+                <h2 className="home-container-other-authors-container-title">¡Compartimos contenido de otros autores!</h2>
+                <p> En la siguiente seccion te mostramos todas las publicaciones</p>
+                <button type="button" class="home-container-other-authors-container-button btn">Mas detalles</button>
             </div>
         </div >
     )

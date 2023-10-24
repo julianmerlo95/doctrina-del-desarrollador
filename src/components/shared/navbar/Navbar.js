@@ -46,7 +46,7 @@ class Navbar extends PureComponent {
                             <a class="navbar-container-item nav-link" href="/about-us">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="navbar-container-item nav-link" href="/work-with-us">Participa del proyecto</a>
+                            <a class="navbar-container-item nav-link" href="/other-authors">Otros autores</a>
                         </li>
                         <li class="nav-item">
                             <a class="navbar-container-item nav-link" href="/contact">Contacto</a>
