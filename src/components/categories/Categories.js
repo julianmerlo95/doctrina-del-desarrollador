@@ -75,9 +75,10 @@ const Categories = () => {
                     <h4 class="categories-container-list-section-title">MONITOREO</h4>
                     <div class="categories-container-list-section-content">
                         <li><a href="ruta.com">New Relic</a></li>
-                        <li><a href="ruta.com">opsgenie</a></li>
+                        <li><a href="ruta.com">Opsgenie</a></li>
                         <li><a href="ruta.com">Datadog</a></li>
                         <li><a href="ruta.com">Grafana</a></li>
+                        <li><a href="ruta.com">Kibana</a></li>
                     </div>
                 </div>
                 <div class="categories-container-list-section">
