@@ -13,11 +13,10 @@ class Footer extends PureComponent {
                         <img className="footer-container-body-left-img" src={img} />
                     </div>
                     <div class="footer-container-body-right">
-                        <li><a href="ruta.com">Inicio</a></li>
-                        <li><a href="ruta.com">Temas</a></li>
-                        <li><a href="ruta.com">Nosotros</a></li>
-                        <li><a href="ruta.com">Participa del proyecto</a></li>
-                        <li><a href="ruta.com">Contacto</a></li>
+                        <li><a href="/home">Inicio</a></li>
+                        <li><a href="/about-us">Nosotros</a></li>
+                        <li><a href="/other-authors">Otros autores</a></li>
+                        <li><a href="/contact">Contacto</a></li>
                     </div>
                 </div>
                 <div class="card-footer text-muted">
