@@ -44,8 +44,9 @@ const Categories = () => {
                 <div class="categories-container-list-section">
                     <h4 class="categories-container-list-section-title">DOCUMENTACION</h4>
                     <div class="categories-container-list-section-content">
-                        <li><a href="ruta.com">BDD</a></li>
-                        <li><a href="ruta.com">TDD</a></li>
+                        <li><a href="ruta.com">Confluence</a></li>
+                        <li><a href="ruta.com">Swagger</a></li>
+                        <li><a href="ruta.com">Notion</a></li>
                     </div>
                 </div>
             </div>
@@ -65,32 +66,34 @@ const Categories = () => {
                 <div class="categories-container-list-section">
                     <h4 class="categories-container-list-section-title">HERRAMIENTAS</h4>
                     <div class="categories-container-list-section-content">
-                        <li><a href="ruta.com">Principios Yagni</a></li>
-                        <li><a href="ruta.com">Domain Driven Design</a></li>
-                        <li><a href="ruta.com">Principios Solid</a></li>
+                        <li><a href="ruta.com">-</a></li>
+                        <li><a href="ruta.com">-</a></li>
+                        <li><a href="ruta.com">-</a></li>
                     </div>
                 </div>
                 <div class="categories-container-list-section">
                     <h4 class="categories-container-list-section-title">MONITOREO</h4>
                     <div class="categories-container-list-section-content">
-                        <li><a href="ruta.com">Factory</a></li>
-                        <li><a href="ruta.com">Strategy</a></li>
-                        <li><a href="ruta.com">Facada</a></li>
+                        <li><a href="ruta.com">New Relic</a></li>
+                        <li><a href="ruta.com">opsgenie</a></li>
+                        <li><a href="ruta.com">Datadog</a></li>
+                        <li><a href="ruta.com">Grafana</a></li>
                     </div>
                 </div>
                 <div class="categories-container-list-section">
-                    <h4 class="categories-container-list-section-title">TESTING</h4>
+                    <h4 class="categories-container-list-section-title">METODOLOGIAS</h4>
                     <div class="categories-container-list-section-content">
-                        <li><a href="ruta.com">Integracion</a></li>
-                        <li><a href="ruta.com">Unitarios</a></li>
-                        <li><a href="ruta.com">TDD</a></li>
+                        <li><a href="ruta.com">Programación extrema</a></li>
+                        <li><a href="ruta.com">Kanban</a></li>
+                        <li><a href="ruta.com">Scrum</a></li>
                     </div>
                 </div>
                 <div class="categories-container-list-section">
-                    <h4 class="categories-container-list-section-title">DOCUMENTACION</h4>
+                    <h4 class="categories-container-list-section-title">OTROS AUTORES</h4>
                     <div class="categories-container-list-section-content">
-                        <li><a href="ruta.com">Integracion</a></li>
-                        <li><a href="ruta.com">Unitarios</a></li>
+                        <li><a href="ruta.com">-</a></li>
+                        <li><a href="ruta.com">-</a></li>
+                        <li><a href="ruta.com">-</a></li>
                     </div>
                 </div>
             </div>
